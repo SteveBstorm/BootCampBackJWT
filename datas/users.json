@@ -1,0 +1,5 @@
+[
+    {"id" : 1, "login" : "user1", "pwd" : "$2b$10$yHxgPnH4AiS1/J1h6L0z7elqxtrJoR09xeqJXVXGKARJQB8k/MNP.", "role" : "user"},
+    {"id" : 2, "login" : "user2", "pwd" : "$2b$10$yHxgPnH4AiS1/J1h6L0z7elqxtrJoR09xeqJXVXGKARJQB8k/MNP.", "role" : "user"},
+    {"id" : 3, "login" : "admin", "pwd" : "$2b$10$hwfTGSx7HXtAm9GO513aDuUiMs.pPeuhhiESL.eh0P.waVyhHTklq", "role" : "admin"}
+]
