@@ -13,7 +13,7 @@ const authController = {
         if(userExist.id != undefined)
         {
             let comparePassword = await bcrypt.compare(authUser.pwd, userExist.pwd)
-
+            
             if(comparePassword){
                 let token = await generateToken(userExist)
                 res.json({jwt : token})

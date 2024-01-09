@@ -4,6 +4,10 @@ const employeesService = {
   
     getAll : async () => {
         return await employeesModels.getAll()
+    },
+
+    getOne : async (id) =>  {
+        return await employeesModels.getOne(id)
     }
 }
 

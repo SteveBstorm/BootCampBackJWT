@@ -6,4 +6,6 @@ routerEmployees
     .route("/")
         .get(authJwt("admin"), employeesController.getAll)
 
+routerEmployees.route("/:id").get(authJwt("admin"), employeesController.getOne)
+
 module.exports = routerEmployees
